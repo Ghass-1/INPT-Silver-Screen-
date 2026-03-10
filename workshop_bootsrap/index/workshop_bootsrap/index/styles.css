@@ -1,0 +1,82 @@
+
+    /* Premium Dark Theme */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0a0a0a;
+      color: #f8f9fa;
+    }
+
+    /* Glassmorphism Navbar */
+    .navbar {
+      background-color: rgba(10, 10, 10, 0.85) !important;
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+
+    /* New class for jQuery to trigger on scroll */
+    .scrolled-nav {
+      background-color: #0a0a0a !important; 
+      border-bottom: 2px solid #e50914 !important; /* Adds a cool red line when scrolled */
+    }
+
+
+    /* Cinematic Hero Section */
+    .hero-section {
+      background: linear-gradient(to bottom, rgba(10, 10, 10, 0.2), #0a0a0a), 
+                  url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=2070&auto=format&fit=crop') center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+    }
+
+    .accent-color {
+      color: #e50914; /* Rouge cinématique */
+    }
+
+    .btn-custom {
+      background-color: #e50914;
+      color: white;
+      border-radius: 30px;
+      padding: 10px 30px;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+
+    .btn-custom:hover {
+      background-color: #b20710;
+      color: white;
+      transform: scale(1.05);
+    }
+
+    /* Elevated Bootstrap Cards */
+    .movie-card {
+      background-color: #1c1c1c;
+      border: none;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .movie-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(229, 9, 20, 0.3);
+      z-index: 2;
+    }
+
+    .card-img-top {
+      height: 250px;
+      object-fit: cover;
+    }
+
+
+
+    .text-light {
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .text-light:hover {
+      transform: translateY(-3px);
+      color: #0d6efd;
+  }
